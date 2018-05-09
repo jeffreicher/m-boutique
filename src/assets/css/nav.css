@@ -1,3 +1,13 @@
-.brand-logo > img {
-    margin: 9% 0 0 5%;
+.nav-wrapper {
+    background-color: #f1f199;
 }
+
+.brand-logo > img {
+    margin: 8% 0 0 2%;
+}
+
+.nav-wrapper > div > i {
+    margin-right: 5vw;
+    color: #000;
+}
+

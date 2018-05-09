@@ -11,7 +11,7 @@ class App extends Component {
         <Nav />
       </div>
     );
-  }
-}
+  };
+};
 
 export default App;
