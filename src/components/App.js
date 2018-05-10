@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../assets/images/logo.svg';
 import 'materialize-css/dist/css/materialize.min.css';
 import { Route } from 'react-router-dom';
-import HomePage from './homePage';
+import HomePage from './home-page';
 
 export default () => (    
   <div>

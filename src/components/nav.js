@@ -44,7 +44,7 @@ class Nav extends Component {
                         </li>
                     </ul>
 
-                    <div className="right show-on-med-and-down">
+                    <div className="right show-on-med-and-down hide-on-large-only">
                         <i className="material-icons right" onClick={this.toggleNav}>menu</i>
                         {this.state.isActive && <Hamburger />}
                     </div>
