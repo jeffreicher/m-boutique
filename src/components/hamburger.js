@@ -8,7 +8,7 @@ class Hamburger extends Component {
             <div className="menu-container">
                 <ul className="menu-items">
                     <li>
-                        <Link to="/welcome">Welcome</Link>
+                        <Link to="/">Welcome</Link>
                     </li>
                     <li>
                         <Link to="/our-macarons">Our Macarons</Link>
