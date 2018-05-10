@@ -17,3 +17,8 @@
     list-style-type:  circle;
     width: 50%;
 }
+
+.macaron-section > p {
+    margin-top: 5vh;
+    font-size: .9rem;
+}
