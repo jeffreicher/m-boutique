@@ -1,9 +1,8 @@
 import React from 'react';
-import Banner from '../assets/images/welcome-image.png';
 import '../assets/css/banner.css';
 
-export default () => (
+export default (props) => (
     <div>
-        <img src={Banner} className="banner" />
+        <img src={props.src} className="banner" />
     </div>  
 )
