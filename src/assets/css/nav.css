@@ -1,4 +1,8 @@
 .nav-wrapper {
+    position: fixed !important; 
+    width: 100%;
+    height: inherit !important;
+    box-shadow: 1px 1px 1px gray !important;
     background-color: #fffabe;
 }
 

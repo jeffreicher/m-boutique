@@ -1,6 +1,7 @@
 .foot-container {
     background-color: #df5277;
     margin-top: 8vh;
+    box-shadow: 0px -1px 3px grey;
 }
 
 .contact {
