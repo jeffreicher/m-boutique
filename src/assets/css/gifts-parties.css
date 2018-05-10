@@ -1,0 +1,23 @@
+.intro-section, .giftbox-section, .tower-section {
+    margin-top: 5vh;
+}
+
+.intro-section > h5, .giftbox-section > h5, .tower-section > h5 {
+    text-align: center;
+}
+
+.giftbox-section > ul > li {
+    list-style-type: circle;
+    margin-left: 12vw;
+    font-size: .9rem;
+}
+
+.tower-section img {
+    width: 82%;
+    padding-left: 14vw;
+}
+
+/* .tower-section {
+    background-image: url('../images/gifts-parties-background.png');
+    width: 100%;
+} */
