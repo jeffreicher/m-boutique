@@ -25,7 +25,7 @@ export default () => {
             <ul className="macaron-list">
                 {macaronMap}
             </ul>
-            <p>* After purchase we reccomend keeping macarons in the refrigerator. let them come to room temperature before serving - about 10 minutes. For best degustation, our macarons should be consumed within 3 days.</p>
+            <p>* After purchase we recommend keeping macarons in the refrigerator. let them come to room temperature before serving - about 10 minutes. For best degustation, our macarons should be consumed within 3 days.</p>
         </div>
         <Footer />
     </div>        
