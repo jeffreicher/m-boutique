@@ -4,6 +4,7 @@ import BannerImage from './banner';
 import PartyBanner from '../assets/images/gifts-parties-image.png';
 import MacaronTower from '../assets/images/macaron-tower.png';
 import '../assets/css/gifts-parties.css';
+import Footer from './footer';
 
 class GiftsAndParties extends Component {
     render() {
@@ -29,13 +30,14 @@ class GiftsAndParties extends Component {
                     </div>
                     <div className='tower-section'>
                         <h5>Party Tower</h5>
-                        <p>Our 5-tiered party tower becomes the centerpiece of any special event or private celebration, elegantly presenting your unique selection of sixty macarons</p>
-                        <ul>
-                            <li>Tower of sixy macarons - $120</li>
-                        </ul>
-                        <img src={MacaronTower} alt='Macaron Tower'/>
+                            <p>Our 5-tiered party tower becomes the centerpiece of any special event or private celebration, elegantly presenting your unique selection of sixty macarons</p>
+                            <ul>
+                                <li>Tower of sixy macarons - $120</li>
+                            </ul>
+                            <img src={MacaronTower} alt='Macaron Tower' />                            
                     </div>                    
                 </div>
+                <Footer />
             </div>
         );
     };
