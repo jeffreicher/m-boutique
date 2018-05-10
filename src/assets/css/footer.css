@@ -1,0 +1,31 @@
+.foot-container {
+    background-color: #df5277;
+    margin-top: 8vh;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot-container p {
+    color: white;
+    margin: 1.5vh 0 0 0;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+@media (min-width: 1000px) {
+    .foot-container {
+        height: 8vh;
+    }
+
+    .contact {
+        flex-direction: row;
+    }
+}

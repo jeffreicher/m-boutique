@@ -19,7 +19,7 @@ import Passion from '../assets/images/passion-fruit.png';
 
 export default () => (
     <div className="container">
-        <div className="hide-on-med-and-down">
+        <div className="hide-on-med-and-down desktop-settings">
             <WeeklyColored time={'3:00 - 4:00 PM'} date={'Monday'} flavor1={'chocolate'} flavor2={'coconut'} img1={Chocolate} img2={Coconut} style={'brownColor'}/>
             <Weekly time={'2:00 - 3:00 PM'} date={'Tuesday'} flavor1={'violet cassis'} flavor2={'green tea'} img1={Violet} img2={GreenTea}/>
             <WeeklyColored time={'09:00 - 10:00 PM'} date={'Wednesday'} flavor1={'passion fruit'} flavor2={'vanilla'} img1={Passion} img2={Vanilla} style={'pinkColor'}/>

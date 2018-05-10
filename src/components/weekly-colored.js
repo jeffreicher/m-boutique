@@ -4,7 +4,7 @@ import Chocolate from '../assets/images/chocolate.png';
 
 export default (props) => (
     <div className="weeklySchedule">
-        <h6>{props.date}</h6>
+        <h6><b>{props.date}</b></h6>
         <h6>{props.time}</h6>
         <div className="flavors">
             <div className="single-flavor">

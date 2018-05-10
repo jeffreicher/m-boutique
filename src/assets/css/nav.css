@@ -11,3 +11,7 @@
     color: #000;
 }
 
+.nav-wrapper > ul > li > a {
+    color: black;
+}
+
