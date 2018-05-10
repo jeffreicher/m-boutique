@@ -1,0 +1,31 @@
+.brownColor {
+    background-color: #783006;
+}
+
+.pinkColor {
+    background-color: rgb(247, 89, 115);
+}
+
+.maroonColor {
+    background-color: maroon;
+}
+
+.goldColor {
+    background-color: goldenrod;
+}
+
+.lavenderColor {
+    background-color: rgb(175, 175, 238);
+}
+
+.coffeeColor {
+    background-color: rgb(53, 34, 34);
+}
+
+.lightPinkColor {
+    background-color: rgb(255, 133, 154);
+}
+
+.brownColor, .pinkColor, .maroonColor, .goldColor, .lavenderColor, .coffeeColor, .lightPinkColor {
+    color: white;
+}

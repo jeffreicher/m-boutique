@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
 import logo from '../assets/images/logo.svg';
-import '../assets/css/app.css';
 import 'materialize-css/dist/css/materialize.min.css';
-import Nav from './nav';
+import { Route } from 'react-router-dom';
+import HomePage from './home-page';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Nav />
-      </div>
-    );
-  };
-};
-
-export default App;
+export default () => (    
+  <div>
+      <Route exact path="/" component={HomePage} />  
+      {/* <Route path="/macarons" component={Macarons} /> */}
+      {/* <Route path="/gifts-parties" component={GiftsParties} /> */}
+      {/* <Route path="/contact" component={Contact} /> */}
+  </div>
+);

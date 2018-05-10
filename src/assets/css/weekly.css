@@ -1,0 +1,39 @@
+.weeklySchedule {
+    margin-top: 4vh;
+    text-align: center;
+    background-color: #c3edfb;
+    box-shadow: 0px 1px 10px gray;
+}
+
+h6:first-of-type {
+    /* margin-top: .5vh; */
+    padding: 0.5vh;
+}
+
+.single-flavor {
+    display: flex;
+    padding: 5.5% 20%;
+    height: 4vh;
+    align-items: center;
+}
+
+.single-flavor p {
+    margin-right: auto;
+}
+
+.single-flavor img {
+    height: 2.2vh;
+}
+
+.desktop-settings {
+    display: flex;
+}
+
+@media (min-width: 1000px) {
+
+
+    .weeklySchedule {
+        width: 20vh;
+        margin-right: 1vw;
+    }
+}

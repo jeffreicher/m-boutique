@@ -3,7 +3,9 @@
     flex-direction: column;
     background-color: black;
     opacity: 0.8;
-    width: 100%;
+    position: fixed;
+    top: 8.5%;
+    right: 0;
 }
 
 .menu-items li {
