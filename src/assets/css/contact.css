@@ -1,3 +1,7 @@
 .contact-section {
     text-align: center;
 }
+
+.container > form > .contact-fields > button {
+    background-color: #df5277 !important;
+}

@@ -17,6 +17,15 @@
     padding-left: 14vw;
 }
 
+.intro-section > p > a {
+    color: #df5277;
+}
+
+.tower-section > ul > li {
+    list-style-type: circle;
+    margin-left: 12vw;
+}
+
 /* .tower-section {
     background-image: url('../images/gifts-parties-background.png');
     width: 100%;
