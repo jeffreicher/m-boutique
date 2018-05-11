@@ -13,20 +13,21 @@ class Contact extends Component {
                 <Nav />
                 <BannerImage src={MapBanner} />                
                 <div className="contact-section container">
-                    <h5>Visit Us!</h5>
+                    <h5>Come Visit Us!</h5>
+                    <p>1625 Post Street</p>
+                    <p>San Francisco, CA 94115</p>
+                    <p>(949)-690-1076</p>
+                    <hr/>
+                    <h5>Hours</h5>
                     <p>Monday-Friday | 10am - 9pm</p>
                     <p>Saturday | 10am - 8pm</p>
                     <p>Sunday | 11am - 7pm</p>
                     <p>Closed on Thanksgiving, Christmas and Easter</p>
-                    <hr/>
-                    <p>1625 Post St.</p>
-                    <p>San Francisco, CA 94115</p>
-                    <p>(949)-690-1076</p>
-                    <hr/>
+                    {/* <hr/>
                     <p><a>order@mboutique.com</a></p>
-                    <p>Send us your questions, comments and flavor suggestions or place an order!</p>
-                </div>
-                <hr/>
+                    <p>Send us your questions, comments and flavor suggestions or place an order!</p> */}
+                    <hr/>
+                    </div>
                 <ContactForm />
                 <Footer />
             </div>
