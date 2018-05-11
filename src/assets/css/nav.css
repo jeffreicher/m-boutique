@@ -1,5 +1,5 @@
 .nav-wrapper {
-    position: fixed !important; 
+    /* position: fixed !important;  */
     width: 100%;
     height: inherit !important;
     box-shadow: 1px 1px 1px gray !important;
@@ -19,3 +19,14 @@
     color: black;
 }
 
+@media (max-width: 799px) {
+    .nav-wrapper {
+        position: fixed !important;
+    }
+}
+
+@media (min-width: 800px) {
+    .brand-logo > img {
+        margin: 10% 0 0 2%;
+    }
+}
