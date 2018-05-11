@@ -31,7 +31,7 @@ class Nav extends Component {
                     </Link>
                     <ul className="right hide-on-med-and-down">
                         <li>
-                            <Link to="/welcome">Welcome</Link>
+                            <Link to="/">Welcome</Link>
                         </li>
                         <li>
                             <Link to="/our-macarons">Our Macarons</Link>
