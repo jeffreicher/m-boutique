@@ -22,9 +22,9 @@
 }
 
 @media (min-width: 1000px) {
-    .foot-container {
+    /* .foot-container {
         height: 8vh;
-    }
+    } */
 
     .contact {
         flex-direction: row;

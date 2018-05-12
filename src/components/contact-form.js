@@ -16,7 +16,7 @@ class ContactForm extends Component {
                         <Field name="Email" component="input" type="text" placeholder="Email"/>
                         <Field name="Phone Number" component="input" type="text" placeholder="Phone Number"/>
                         <Field name="Message" component="textarea" type="text" placeholder="Message"/>
-                        <button className="btn waves-effect waves-light right" type="submit">Submit<i class="material-icons right">send</i></button>                    
+                        <button className="btn waves-effect waves-light right" type="submit">Submit<i className="material-icons right">send</i></button>                    
                     </div>
                 </form>
             </div>

@@ -16,11 +16,11 @@ export default () => {
     <div>
         <Nav />
         <BannerImage src={MacaronBanner}/>
-        <div className="macaron-description container">
-            <h5>Each macaron is made fresh by hand</h5>
+        <div className="macaron-description container desktop-views">
+            <h5>Macarons Made Fresh Daily!</h5>
             <p>The vivid hues of our unique macarons reflect the natural flavors and essences that infuse the ganache filling of these delicious almond treats - each macaron has it's own personality and all of them are made to be savoured for their delicacy and unique character.</p>            
         </div>
-        <div className="macaron-section container">
+        <div className="macaron-section container desktop-views">
             <h5>Flavors</h5>
             <ul className="macaron-list">
                 {macaronMap}

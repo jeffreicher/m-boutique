@@ -29,11 +29,30 @@ h6:first-of-type {
     display: flex;
 }
 
-@media (min-width: 1000px) {
+.mobile-views {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+@media (min-width: 800px) {
+
+    .desktop-width {
+        width: 85% !important;
+    }
 
     .weeklySchedule {
         width: 20vh;
         margin-right: 1vw;
+    }
+
+    .single-flavor {
+        padding: 5.5% 6%;
+    }
+}
+
+@media (max-width: 799px) {
+    .weeklySchedule {
+        width: 70%;
     }
 }

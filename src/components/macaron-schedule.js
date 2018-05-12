@@ -18,7 +18,7 @@ import Passion from '../assets/images/passion-fruit.png';
 
 
 export default () => (
-    <div className="container">
+    <div className="container desktop-width">
         <div className="hide-on-med-and-down desktop-settings">
             <WeeklyColored time={'3:00 - 4:00 PM'} date={'Monday'} flavor1={'chocolate'} flavor2={'coconut'} img1={Chocolate} img2={Coconut} style={'brownColor'}/>
             <Weekly time={'2:00 - 3:00 PM'} date={'Tuesday'} flavor1={'violet cassis'} flavor2={'green tea'} img1={Violet} img2={GreenTea}/>
@@ -29,7 +29,7 @@ export default () => (
             <WeeklyColored time={'10:00 - 11:00 AM'} date={'Sunday'} flavor1={'caramel'} flavor2={'almond'} img1={Caramel} img2={Almond} style={'goldColor'}/>           
         </div>
 
-        <div className="show-on-med-and-down hide-on-large-only">
+        <div className="show-on-med-and-down hide-on-large-only mobile-views">
             <WeeklyColored time={'3:00 - 4:00 PM'} date={'Monday'} flavor1={'chocolate'} flavor2={'coconut'} img1={Chocolate} img2={Coconut} style={'brownColor'}/>
             <Weekly time={'2:00 - 3:00 PM'} date={'Tuesday'} flavor1={'violet cassis'} flavor2={'green tea'} img1={Violet} img2={GreenTea} style={'lavenderColor'}/>
             <WeeklyColored time={'09:00 - 10:00 PM'} date={'Wednesday'} flavor1={'passion fruit'} flavor2={'vanilla'} img1={Passion} img2={Vanilla} style={'pinkColor'}/>

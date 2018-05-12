@@ -12,7 +12,7 @@ class GiftsAndParties extends Component {
             <div>
                 <Nav />
                 <BannerImage src={PartyBanner} />
-                <div className='container'>
+                <div className='container desktop-views'>
                     <div className='intro-section'>
                         <h5>Let's Eat Macarons!</h5>
                         <p>We make it easy to share our passion filled macarons with your friends, family and colleagues. Choose from our array of premium gift options, or we can create a customized arrangement just for you. Contact us when you need help planning your celebration at <a>orders@mboutique.com</a>.</p>

@@ -1,11 +1,14 @@
 import React from 'react';
-import QuadMaca from '../assets/images/macarons-image.png';
+import SixMaca from '../assets/images/macarons-image.png';
 import '../assets/css/mainBody.css';
 
 export default () => (
-    <div className="">
+    <div>
         {/* <img src={QuadMaca} className=""/> */}
-        <div className="container">
+        <div className="container desktop-views">
+            <div className="hide-on-med-and-down left six-maca-desktop">
+                <img src={SixMaca} alt="Desktop Macarons"/>
+            </div>
             <h5>Welcome to MBoutique!</h5>
             <p>We're a home-based baking business that specializes in French macarons, a gluten free pastry item made from ground almonds. Our business began at the West Reading Farmers Market in 2011. Last year (2017) marked our seventh and final season of participation at the market. MBoutique was established to pay homage to the delicate French confectionery, the macaron. Our shop has been recognized as the connoisseur of this delicious French pastry because of the wonderful variety of flavors from our great master chefs.</p>
              <h5>We Love Macarons!</h5>
