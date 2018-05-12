@@ -22,3 +22,13 @@
     margin-top: 5vh;
     font-size: .9rem;
 }
+
+@media (min-width: 800px) {
+
+    .macaron-description > h5 {
+        font-size: 1.64rem;
+    }
+    .macaron-list {
+        margin-left: 29vh;
+    }
+}
