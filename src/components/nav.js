@@ -27,7 +27,7 @@ class Nav extends Component {
             <nav>
                 <div className="nav-wrapper">
                     <Link to="/" className="brand-logo left">
-                        <img src={Logo} />
+                        <img src={Logo} alt="Brand Logo" />
                     </Link>
                     <ul className="right hide-on-med-and-down">
                         <li>
