@@ -20,23 +20,23 @@ import Passion from '../assets/images/passion-fruit.png';
 export default () => (
     <div className="container desktop-width">
         <div className="hide-on-med-and-down desktop-settings">
-            <WeeklyColored time={'3:00 - 4:00 PM'} date={'Monday'} flavor1={'chocolate'} flavor2={'coconut'} img1={Chocolate} img2={Coconut} style={'brownColor'}/>
+            <WeeklyColored time={'3:00 - 4:00 PM'} date={'Monday'} flavor1={'chocolate'} flavor2={'coconut'} img1={Chocolate} img2={Coconut} color={'brownColor'}/>
             <Weekly time={'2:00 - 3:00 PM'} date={'Tuesday'} flavor1={'violet cassis'} flavor2={'green tea'} img1={Violet} img2={GreenTea}/>
-            <WeeklyColored time={'09:00 - 10:00 PM'} date={'Wednesday'} flavor1={'passion fruit'} flavor2={'vanilla'} img1={Passion} img2={Vanilla} style={'pinkColor'}/>
+            <WeeklyColored time={'09:00 - 10:00 PM'} date={'Wednesday'} flavor1={'passion fruit'} flavor2={'vanilla'} img1={Passion} img2={Vanilla} color={'pinkColor'}/>
             <Weekly time={'6:00 - 7:00 PM'} date={'Thursday'} flavor1={'coffee'} flavor2={'pistachio'} img1={Coffee} img2={Pistachio}/>
-            <WeeklyColored time={'11:00 - 12:00 AM'} date={'Friday'} flavor1={'raspberry'} flavor2={'lemon'} img1={Raspberry} img2={Lemon} style={'maroonColor'}/>
+            <WeeklyColored time={'11:00 - 12:00 AM'} date={'Friday'} flavor1={'raspberry'} flavor2={'lemon'} img1={Raspberry} img2={Lemon} color={'maroonColor'}/>
             <Weekly time={'1:00 - 2:00 PM'} date={'Saturday'} flavor1={'rose'} flavor2={'tiffany blue'} img1={Rose} img2={Tiffany}/>
-            <WeeklyColored time={'10:00 - 11:00 AM'} date={'Sunday'} flavor1={'caramel'} flavor2={'almond'} img1={Caramel} img2={Almond} style={'goldColor'}/>           
+            <WeeklyColored time={'10:00 - 11:00 AM'} date={'Sunday'} flavor1={'caramel'} flavor2={'almond'} img1={Caramel} img2={Almond} color={'goldColor'}/>           
         </div>
 
         <div className="show-on-med-and-down hide-on-large-only mobile-views">
-            <WeeklyColored time={'3:00 - 4:00 PM'} date={'Monday'} flavor1={'chocolate'} flavor2={'coconut'} img1={Chocolate} img2={Coconut} style={'brownColor'}/>
-            <Weekly time={'2:00 - 3:00 PM'} date={'Tuesday'} flavor1={'violet cassis'} flavor2={'green tea'} img1={Violet} img2={GreenTea} style={'lavenderColor'}/>
-            <WeeklyColored time={'09:00 - 10:00 PM'} date={'Wednesday'} flavor1={'passion fruit'} flavor2={'vanilla'} img1={Passion} img2={Vanilla} style={'pinkColor'}/>
-            <Weekly time={'6:00 - 7:00 PM'} date={'Thursday'} flavor1={'coffee'} flavor2={'pistachio'} img1={Coffee} img2={Pistachio} style={'coffeeColor'}/>
-            <WeeklyColored time={'11:00 - 12:00 AM'} date={'Friday'} flavor1={'raspberry'} flavor2={'lemon'} img1={Raspberry} img2={Lemon} style={'maroonColor'}/>
-            <Weekly time={'1:00 - 2:00 PM'} date={'Saturday'} flavor1={'rose'} flavor2={'tiffany blue'} img1={Rose} img2={Tiffany} style={'lightPinkColor'}/>
-            <WeeklyColored time={'10:00 - 11:00 AM'} date={'Sunday'} flavor1={'caramel'} flavor2={'almond'} img1={Caramel} img2={Almond} style={'goldColor'}/>     
+            <WeeklyColored time={'3:00 - 4:00 PM'} date={'Monday'} flavor1={'chocolate'} flavor2={'coconut'} img1={Chocolate} img2={Coconut} color={'brownColor'}/>
+            <Weekly time={'2:00 - 3:00 PM'} date={'Tuesday'} flavor1={'violet cassis'} flavor2={'green tea'} img1={Violet} img2={GreenTea} color={'lavenderColor'}/>
+            <WeeklyColored time={'09:00 - 10:00 PM'} date={'Wednesday'} flavor1={'passion fruit'} flavor2={'vanilla'} img1={Passion} img2={Vanilla} color={'pinkColor'}/>
+            <Weekly time={'6:00 - 7:00 PM'} date={'Thursday'} flavor1={'coffee'} flavor2={'pistachio'} img1={Coffee} img2={Pistachio} color={'coffeeColor'}/>
+            <WeeklyColored time={'11:00 - 12:00 AM'} date={'Friday'} flavor1={'raspberry'} flavor2={'lemon'} img1={Raspberry} img2={Lemon} color={'maroonColor'}/>
+            <Weekly time={'1:00 - 2:00 PM'} date={'Saturday'} flavor1={'rose'} flavor2={'tiffany blue'} img1={Rose} img2={Tiffany} color={'lightPinkColor'}/>
+            <WeeklyColored time={'10:00 - 11:00 AM'} date={'Sunday'} flavor1={'caramel'} flavor2={'almond'} img1={Caramel} img2={Almond} color={'goldColor'}/>     
         </div>
         
     </div>

@@ -10,7 +10,7 @@ export default (props) => (
             <div className="single-flavor">
                 <p>{props.flavor1}</p><img src={props.img1} />            
             </div>
-            <div className={`single-flavor ${props.style}`}>
+            <div className={`single-flavor ${props.color}`}>
                 <p>{props.flavor2}</p><img src={props.img2} />            
             </div>
         </div>
