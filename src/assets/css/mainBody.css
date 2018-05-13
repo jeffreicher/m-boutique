@@ -1,15 +1,21 @@
-.container > h5 {
+.container > div > h5, .samples-header {
     margin-top: 5vh;
     text-align: center;
 }
 
-
 @media (min-width: 800px) {
     .six-maca-desktop {
-        margin: 9vh 10vh 0 0;
+        margin: 18vh 10vh 0 0;
     }
 
     .desktop-views {
+        display: flex;
         width: 85% !important;
+    }
+}
+
+@media (min-width: 1500px) {
+    .six-maca-desktop {
+        margin: 15vh 10vh 0 0;
     }
 }
