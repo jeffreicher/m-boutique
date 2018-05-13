@@ -32,3 +32,18 @@
         margin-left: 29vh;
     }
 }
+
+@media (max-width: 1500px) and (min-width: 800px) {
+    .desktop-settings {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .weeklySchedule {
+        width: 50vh;
+    }
+
+    .single-flavor {
+        padding: 5.5% 20%;
+    }
+}
