@@ -1,5 +1,7 @@
 .macaron-description > h5 {
     font-size: 1.3rem;
+    text-align: center;
+    margin-top: 5vh;
 }
 .macaron-section > h5 {
     text-align: center;

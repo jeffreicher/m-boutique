@@ -9,7 +9,7 @@
     }
 
     .desktop-views {
-        display: flex;
+        /* display: flex; */
         width: 85% !important;
     }
 }

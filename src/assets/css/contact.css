@@ -6,6 +6,19 @@
     background-color: #df5277 !important;
 }
 
+.contact-section > h5:first-of-type {
+    margin-top: 5vh;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.contact-section > hr {
+    margin: 5vh 0;
+}
+
 .contact-fields {
     display: flex;
     flex-direction: column;
@@ -16,13 +29,25 @@
     width: 50% !important;
 }
 
-.contact-fields > textarea {
+.contact-fields > .textarea {
     width: 80%;
     height: 10rem;
-    margin: 5vh 0;
+    margin: 2vh 0 3vh 0;
 }
 
-.contact-fields > input:focus {
+.contact-fields > p:last-of-type {
+    margin-bottom: 3vh;
+}
+
+.contact-fields > .text:focus,
+.contact-fields > .tel:focus {
     border-bottom: #df5277 !important;
     box-shadow: 0 2px 0 0 #df5277 !important;
+}
+
+
+@media (max-width: 500px) {
+    .contact-fields > input {
+        width: 80% !important;
+    }
 }
