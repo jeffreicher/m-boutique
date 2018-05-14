@@ -10,9 +10,16 @@
     text-align: center;
 }
 
-.giftbox-section > ul > li {
+.giftbox-section > ul,
+.tower-section > ul {
+    padding-left: 4%;
+}
+
+.giftbox-section > ul > li,
+.tower-section > ul > li {
     list-style-type: circle;
-    margin-left: 12vw;
+    width: 17%;
+    margin: 0 auto;
     font-size: .9rem;
 }
 
@@ -24,12 +31,6 @@
 .intro-section > p > a {
     color: #df5277;
 }
-
-.tower-section > ul > li {
-    list-style-type: circle;
-    margin-left: 12vw;
-}
-
 
 /* .tower-section {
     background-image: url('../images/gifts-parties-background.png');
