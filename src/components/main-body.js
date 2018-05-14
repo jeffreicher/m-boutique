@@ -5,7 +5,7 @@ import '../assets/css/mainBody.css';
 export default () => (
     <div>
         {/* <img src={QuadMaca} className=""/> */}
-        <div className="container desktop-views">
+        <div className="container desktop-main">
             <div className="hide-on-med-and-down left six-maca-desktop">
                 <img src={SixMaca} alt="Desktop Macarons"/>
             </div>
