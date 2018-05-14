@@ -10,16 +10,17 @@ class ContactForm extends Component {
     sendData(values, dispatch, props) {
         console.log("Submitted:", values);
         props.reset();
-    }
+    };
 
     renderInput(props) {
         return (
             <div className="contact-fields">
-                <input {...props.input} type={props.type ? props.type : 'text'} className={props.type} placeholder={props.placeholder}/>
+                {props.type == "text" || props.type == "tel" ? <input {...props.input} type={props.type ? props.type : 'text'} className={props.type} placeholder={props.placeholder}/> : <textarea {...props.input} type={props.type ? props.type : 'text'} className={props.type} placeholder={props.placeholder}/> }
                 <p className="red-text text-darken-2">{props.meta.touched && props.meta.error}</p>
             </div>
-        )
-    }
+        );
+    };
+
     render() {
         const { handleSubmit, submitSuccedded } = this.props;
         const success = this.props.submitSucceeded;

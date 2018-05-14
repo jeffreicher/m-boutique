@@ -17,7 +17,8 @@
 
 .macaron-section > ul li {
     list-style-type:  circle;
-    width: 50%;
+    width: 26%;
+    margin: 0 auto;
 }
 
 .macaron-section > p {
@@ -30,9 +31,9 @@
     .macaron-description > h5 {
         font-size: 1.64rem;
     }
-    .macaron-list {
+    /* .macaron-list {
         margin-left: 29vh;
-    }
+    } */
 }
 
 @media (max-width: 1500px) and (min-width: 800px) {
@@ -47,5 +48,17 @@
 
     .single-flavor {
         padding: 5.5% 20%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .macaron-list {
+        margin-left: 21vh;
+    }
+}
+
+@media (max-width: 475px) {
+    .macaron-list {
+        margin-left: 0;
     }
 }

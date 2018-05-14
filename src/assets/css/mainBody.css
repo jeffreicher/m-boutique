@@ -12,6 +12,11 @@
         /* display: flex; */
         width: 85% !important;
     }
+
+    .desktop-main {
+        display: flex;
+        width: 85% !important;
+    }
 }
 
 @media (min-width: 1500px) {
