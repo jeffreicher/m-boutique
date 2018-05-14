@@ -13,6 +13,11 @@
 .nav-wrapper > div > i {
     margin-right: 5vw;
     color: #000;
+    cursor: pointer;
+}
+
+.nav-wrapper > div > i:hover {
+    color: #df5277;
 }
 
 .nav-wrapper > ul > li > a {
