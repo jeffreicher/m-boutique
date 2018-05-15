@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+.success-header {
+    text-align: center;
+    color: rgb(2, 56, 2);
+}
+
 .container > form > button {
     background-color: #df5277 !important;
 }
@@ -12,7 +17,7 @@
 
 .contact-header {
     text-align: center;
-    margin-bottom: 3vh;
+    /* margin-bottom: 3vh; */
 }
 
 .contact-section > hr {
