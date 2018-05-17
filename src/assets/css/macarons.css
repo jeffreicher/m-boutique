@@ -36,14 +36,17 @@
     } */
 }
 
-@media (max-width: 1500px) and (min-width: 800px) {
+@media (max-width: 1500px) and (min-width: 989px) {
     .desktop-settings {
-        flex-direction: column;
+        /* flex-direction: column;
+        align-items: center; */
         align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .weeklySchedule {
-        width: 50vh;
+        width: 38vh;
     }
 
     .single-flavor {
