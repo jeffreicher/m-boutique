@@ -6,7 +6,7 @@ import '../assets/css/macarons.css';
 import Footer from './footer';
 
 export default () => {
-    const macaronArray = ['carribean chocolate', 'coconut', 'colombian coffee', 'green tea', 'lemon', 'madagascar vanilla', 'passion fruit', 'rose', 'raspberry', 'tiffany blue', 'sicilian pistachio', 'sweet wedding almond', 'violet cassis', 'salted caramel', 'earl gray', 'mango madness', 'juicy fruit', 'cotton candy'];
+    const macaronArray = ['carribean chocolate', 'coconut', 'colombian coffee', 'green tea', 'lemon', 'madagascar vanilla', 'passion fruit', 'rose', 'raspberry', 'tiffany blue', 'sicilian pistachio', 'sweet almond', 'violet cassis', 'salted caramel', 'earl gray', 'mango madness', 'juicy fruit', 'cotton candy'];
     const macaronMap = macaronArray.map((item, index) => {
         return (
             <li key={index}>{item}</li>

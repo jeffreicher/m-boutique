@@ -17,7 +17,7 @@
 
 .macaron-section > ul li {
     list-style-type:  circle;
-    width: 26%;
+    width: 34%;
     margin: 0 auto;
 }
 
@@ -63,5 +63,10 @@
 @media (max-width: 475px) {
     .macaron-list {
         margin-left: 0;
+    }
+
+    .macaron-section > ul li {
+        width: 51%;
+        margin-right: 7vh;
     }
 }
