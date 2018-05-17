@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Field, reduxForm } from 'redux-form';
 import '../assets/css/contact.css';
+import normalizePhone from './normalizePhone';
 
 class ContactForm extends Component {
     // constructor(props) {
@@ -32,7 +33,7 @@ class ContactForm extends Component {
                 <form onSubmit={handleSubmit(this.sendData)} >
                         <Field name="name" component={this.renderInput} type="text" placeholder="Name"/>
                         <Field name="email" component={this.renderInput} type="text" placeholder="Email"/>
-                        <Field name="phone" component={this.renderInput} type="tel" placeholder="Phone Number"/>
+                        <Field name="phone" component={this.renderInput} normalize={normalizePhone} type="tel" placeholder="Phone Number"/>
                         <Field name="message" component={this.renderInput} type="textarea" placeholder="Message"/>
                     <button className="btn waves-effect waves-light right" type="submit">Submit<i className="material-icons right">send</i></button>
                 </form>                
