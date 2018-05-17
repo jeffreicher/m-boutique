@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.524f98b9.css",
-  "main.css.map": "static/css/main.524f98b9.css.map",
-  "main.js": "static/js/main.7e436cdb.js",
-  "main.js.map": "static/js/main.7e436cdb.js.map",
+  "main.css": "static/css/main.3ec3b6a1.css",
+  "main.css.map": "static/css/main.3ec3b6a1.css.map",
+  "main.js": "static/js/main.2b4e8d9b.js",
+  "main.js.map": "static/js/main.2b4e8d9b.js.map",
   "static\\media\\Roboto-Bold.woff": "static/media/Roboto-Bold.eed9aab5.woff",
   "static\\media\\Roboto-Bold.woff2": "static/media/Roboto-Bold.c0f1e4a4.woff2",
   "static\\media\\Roboto-Light.woff": "static/media/Roboto-Light.ea36cd9a.woff",
@@ -17,5 +17,6 @@
   "static\\media\\gifts-parties-image.png": "static/media/gifts-parties-image.7f59e4d9.png",
   "static\\media\\macaron-tower.png": "static/media/macaron-tower.53dcd07f.png",
   "static\\media\\our-macarons-image.png": "static/media/our-macarons-image.08222483.png",
+  "static\\media\\spinner.gif": "static/media/spinner.44271f65.gif",
   "static\\media\\welcome-image.png": "static/media/welcome-image.9751f35b.png"
 }
