@@ -17,7 +17,7 @@
 
 .macaron-section > ul li {
     list-style-type:  circle;
-    width: 26%;
+    width: 34%;
     margin: 0 auto;
 }
 
@@ -36,14 +36,17 @@
     } */
 }
 
-@media (max-width: 1500px) and (min-width: 800px) {
+@media (max-width: 1500px) and (min-width: 989px) {
     .desktop-settings {
-        flex-direction: column;
+        /* flex-direction: column;
+        align-items: center; */
         align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .weeklySchedule {
-        width: 50vh;
+        width: 38vh;
     }
 
     .single-flavor {
@@ -60,5 +63,10 @@
 @media (max-width: 475px) {
     .macaron-list {
         margin-left: 0;
+    }
+
+    .macaron-section > ul li {
+        width: 51%;
+        margin-right: 7vh;
     }
 }

@@ -27,6 +27,7 @@ h6:first-of-type {
 
 .desktop-settings {
     display: flex;
+    width: 62vw;
 }
 
 .mobile-views {
@@ -38,7 +39,7 @@ h6:first-of-type {
 @media (min-width: 800px) {
 
     .desktop-width {
-        width: 85% !important;
+        width: 90% !important;
     }
 
     .weeklySchedule {
@@ -51,7 +52,7 @@ h6:first-of-type {
     }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 990px) {
     .weeklySchedule {
         width: 70%;
     }

@@ -36,10 +36,10 @@
     background-image: url('../images/gifts-parties-background.png');
     width: 100%;
 } */
-@media (max-width: 1800px) {
+@media (max-width: 2000px) {
     .giftbox-section > ul > li,
     .tower-section > ul > li {
-        width: 29%;
+        width: 30%;
     }
 
     .giftbox-section > ul, .tower-section > ul {
@@ -50,14 +50,14 @@
 @media (max-width: 1200px) {
     .giftbox-section > ul > li,
     .tower-section > ul > li {
-        width: 34%;
+        width: 40%;
     }
 }
 
 @media (max-width: 850px) {
     .giftbox-section > ul > li,
     .tower-section > ul > li {
-        width: 38%;
+        width: 44%;
     }
 }
 
@@ -68,10 +68,17 @@
     }
 }
 
+@media (max-width: 500px) {
+    .giftbox-section > ul > li,
+    .tower-section > ul > li {
+        width: 50%;
+    }
+}
+
 @media (max-width: 450px) {
     .giftbox-section > ul > li,
     .tower-section > ul > li {
-        width: 56%;
+        width: 67%;
     }
 }
 
