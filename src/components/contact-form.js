@@ -18,8 +18,20 @@ class ContactForm extends Component {
     };
 
     sendData(values, dispatch, props) {
-        console.log("Submitted:", values);
-        props.reset();
+        
+
+        this.setState({
+            loader: true
+        });
+        setTimeout(() => {
+            this.setState({
+                loader: false,
+                displaySuccess: true
+            });
+            console.log("Submitted:", values);
+            props.reset();
+        }, 3000);
+        
     };
 
     renderInput(props) {
@@ -51,13 +63,13 @@ class ContactForm extends Component {
             <div className="container">
                 <h5 className="contact-header">Contact</h5>
                 <h5 className="success-header" style={{ opacity: this.state.displaySuccess ? 1 : 0 }}>Submitted!</h5>
-                <form onSubmit={handleSubmit(this.sendData)} >
+                <form onSubmit={handleSubmit(this.sendData.bind(this))} >
                     <Field name="name" component={this.renderInput} type="text" placeholder="Name"/>
                     <Field name="email" component={this.renderInput} type="text" placeholder="Email"/>
                     <Field name="phone" component={this.renderInput} normalize={normalizePhone} type="tel" placeholder="Phone Number"/>
                     <Field name="message" component={this.renderInput} type="textarea" placeholder="Message"/>
                     {/* <div>{this.state.loader && <img src={spinner} className="spinner" alt="spinner"/>}</div> */}
-                    <div>{(this.state.loader) ? <img src={spinner} className="spinner" alt="spinner"/> : <button className="btn waves-effect waves-light right" onClick={this.showLoader} type="submit">Submit<i className="material-icons right">send</i></button>}</div>
+                    <div>{(this.state.loader) ? <img src={spinner} className="spinner" alt="spinner"/> : <button className="btn waves-effect waves-light right">Submit<i className="material-icons right">send</i></button>}</div>
                 </form>                
             </div>
         );
