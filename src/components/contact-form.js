@@ -7,9 +7,7 @@ import spinner from '../assets/images/spinner.gif';
 class ContactForm extends Component {
     constructor(props) {
         super(props);
-
-        this.showLoader = this.showLoader.bind(this);
-
+        
         this.state = {
             loader: false,
             displaySuccess: false
