@@ -18,8 +18,6 @@ class ContactForm extends Component {
     };
 
     sendData(values, dispatch, props) {
-        
-
         this.setState({
             loader: true
         });
@@ -43,21 +41,8 @@ class ContactForm extends Component {
         );
     };
 
-    showLoader() {
-        this.setState({
-            loader: true
-        });
-        setTimeout(() => {
-            this.setState({
-                loader: false,
-                displaySuccess: true
-            });
-        }, 3000);
-    };
-
     render() {
         const { handleSubmit } = this.props;
-        // const success = this.props.submitSucceeded;
 
         return (
             <div className="container">
@@ -68,7 +53,6 @@ class ContactForm extends Component {
                     <Field name="email" component={this.renderInput} type="text" placeholder="Email"/>
                     <Field name="phone" component={this.renderInput} normalize={normalizePhone} type="tel" placeholder="Phone Number"/>
                     <Field name="message" component={this.renderInput} type="textarea" placeholder="Message"/>
-                    {/* <div>{this.state.loader && <img src={spinner} className="spinner" alt="spinner"/>}</div> */}
                     <div>{(this.state.loader) ? <img src={spinner} className="spinner" alt="spinner"/> : <button className="btn waves-effect waves-light right">Submit<i className="material-icons right">send</i></button>}</div>
                 </form>                
             </div>
@@ -96,10 +80,7 @@ const validate = values => {
     if (!values.phone) {
         error.phone = 'Please enter a phone number.'
     }
-    
-    // else if (!/\d{3}-?\d{3}-?\d{4}/g.test(values.phone)) {
-    //     error.phone = 'Invalid phone number.'
-    // }
+
     return error;
 }
 
