@@ -4,7 +4,7 @@ const normalizePhone = (value, previousValue) => {
     };
     const onlyNums = value.replace(/[^\d]/g, '');
     if (!previousValue || value.length > previousValue.length) {
-      // typing forward
+
       if (onlyNums.length === 3) {
         return onlyNums + '-';
       };
