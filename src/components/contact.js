@@ -23,9 +23,6 @@ class Contact extends Component {
                     <p>Saturday | 10am - 8pm</p>
                     <p>Sunday | 11am - 7pm</p>
                     <p>Closed on Thanksgiving, Christmas and Easter</p>
-                    {/* <hr/>
-                    <p><a>order@mboutique.com</a></p>
-                    <p>Send us your questions, comments and flavor suggestions or place an order!</p> */}
                     <hr/>
                     </div>
                 <ContactForm />
