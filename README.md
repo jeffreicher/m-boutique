@@ -2,6 +2,10 @@
 
 An online storefront for a French bakery that specialized in macarons!
 
+## Live
+
+View this project live [HERE](https://mboutique.jeffreicher.com)
+
 ##  Features
 
 * A welcome page with a brief description of who they are and what they do as well as a schedule for daily samples.
