@@ -9,10 +9,10 @@ An online storefront for a French bakery that specialized in macarons!
 * Gifts and party page for large macaron orders and store speciality party towers for memoriable events.
 * Contact page that contains store location, hours, and a contact form for inquries.
 
-![Landing Page](src/assets/images/mb-welcome.png) | ![Macaron Page](src/assets/images/mb-macaron.jpg)
+<img src="src/assets/images/mb-welcome.jpg" height="200"> | <img src="src/assets/images/mb-macaron.jpg" height="200">
 :--------------------------:|:--------------------------:
 
-![Gifts and Parties Page](src/assets/images/mb-gifts.png) | ![Contact Page](src/assets/images/mb-contact.png)
+<img src="src/assets/images/mb-gifts.jpg" height="200"> | <img src="src/assets/images/mb-contact.jpg" height="200">
 :-------------------------:|:-------------------------:
 
 ## Technology Used
