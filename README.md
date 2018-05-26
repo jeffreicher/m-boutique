@@ -12,7 +12,7 @@ An online storefront for a French bakery that specialized in macarons!
 ![Landing Page](src/assets/images/mb-welcome.jpg) | ![Macaron Page](src/assets/images/mb-macaron.jpg)
 :-------------------------:|:-------------------------:
 
-![Gifts and Parties Page](src/assets/images/mb-gifts.jpg) | ![Contact Page](src/assets/images/mb-contact.png)
+![Gifts and Parties Page](src/assets/images/mb-gifts.jpg) | ![Contact Page](src/assets/images/mb-contact.jpg)
 :-------------------------:|:-------------------------:
 
 ## Technology Used
