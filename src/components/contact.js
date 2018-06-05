@@ -22,7 +22,7 @@ class Contact extends Component {
                     <p>Monday-Friday | 10am - 9pm</p>
                     <p>Saturday | 10am - 8pm</p>
                     <p>Sunday | 11am - 7pm</p>
-                    <p>Closed on Thanksgiving, Christmas and Easter</p>
+                    <p>Closed on Thanksgiving, Christmas, and Easter</p>
                     <hr/>
                     </div>
                 <ContactForm />
